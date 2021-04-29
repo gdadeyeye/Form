@@ -1,0 +1,38 @@
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form action="form1.php" method="POST">
+            <table class="align">
+                <tr>
+                <td>First Name</td>
+                <td><input type="text" name="text" id="first"  required></td>  
+                </tr>
+
+                <tr>
+                    <td>Last Name</td>
+                    <td><input type="text" name="text" id="first"  required></td>  
+                </tr>
+
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="number" name="number1" id="first"  required maxlength="10"></td>  
+                </tr>
+
+                <tr>
+                    <td>Email Address:</td>
+                    <td><input type="email" name="email" id="first" required></td>  
+                </tr>
+
+                <tr>
+                    <td>Message:</td>
+                    <td><textarea name="msg" placeholder="Enter your message here..." rows="10" cols="50"></textarea></td>
+                </tr>
+            </table>
+            </form>
+            </body>
+            </html>
+
