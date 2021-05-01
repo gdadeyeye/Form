@@ -13,7 +13,7 @@ if(isset($_POST['submit']))
 	$postLast	= $_POST['text1'];
 	$postNumber	= $_POST['number1'];
 	$postEmail	= $_POST['email'];
-	$Carmake = $_POST['myvehicles'];
+	$Carmake        = $_POST['myvehicles'];
 	
 	$sql = "insert into persons (FirstName,LastName,PhoneNumber,EmailAddress,Message,Model) values ('".$postFirst."','".$postLast."','".$postNumber."','".$postEmail."','".$textareaValue."','".$Carmake."')";
 	$rs = mysqli_query($conn, $sql);
